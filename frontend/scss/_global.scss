@@ -1,0 +1,86 @@
+// Global component styles
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+a {
+  &:focus {
+    outline: none;
+  }
+}
+
+// Main page wrapper
+#wrapper {
+  display: flex;
+  #content-wrapper {
+    background-color: $light;
+    width: 100%;
+    overflow-x: hidden;
+    #content {
+      padding: 2rem;
+      flex: 1 0 auto;
+    }
+  }
+}
+
+// Set container padding to match gutter width instead of default 15px
+.container,
+.container-fluid {
+  padding-left: $grid-gutter-width;
+  padding-right: $grid-gutter-width;
+}
+
+// Scroll to top button
+.scroll-to-top {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  display: none;
+  width: 2.75rem;
+  height: 2.75rem;
+  text-align: center;
+  color: $white;
+  background: fade-out($gray-800, .5);
+  line-height: 46px;
+  &:focus,
+  &:hover {
+    color: white;
+  }
+  &:hover {
+    background: $gray-800;
+  }
+  i {
+    font-weight: 800;
+  }
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.card.hover:hover {
+  background-color: $gray-100;
+}
+
+
+hr {
+  background: linear-gradient(90deg, rgba(9,9,121,0) 0%, rgb(0 0 0 / 0.05) 15%, rgb(0 0 0 / 0.05) 85%, rgba(0,212,255,0) 100%);
+  border: 0;
+  height: 0.05rem;
+  @extend .mb-2;
+  @extend .mt-3;
+}
+
+.table th, .table td {
+  border: none
+}
+
+.table thead th {
+  border: none
+}

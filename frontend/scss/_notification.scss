@@ -1,0 +1,11 @@
+.notification {
+  background-color: $red;
+  height: 0.65rem;
+  width: 0.65rem;
+  margin: 2px 0px 0px 5px;
+  border-radius: 100%;
+
+  &.top-corner {
+    position: absolute;
+  }
+}

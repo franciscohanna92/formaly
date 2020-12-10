@@ -1,0 +1,12 @@
+
+
+.form-group {
+  label {
+    @extend .text-dark;
+    @extend .font-weight-bold;
+  }
+  .form-control {
+    box-shadow: rgba(37, 11, 54, 0.04) 0px 2px 0px inset;
+    height: calc(1.5em + 1rem + 2px);
+  }
+}
