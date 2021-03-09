@@ -1,0 +1,211 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/francisco/Personal/formaly/backend/backend.root/backend.root.csproj": {}
+  },
+  "projects": {
+    "/home/francisco/Personal/formaly/backend/backend.business/backend.business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/francisco/Personal/formaly/backend/backend.business/backend.business.csproj",
+        "projectName": "backend.business",
+        "projectPath": "/home/francisco/Personal/formaly/backend/backend.business/backend.business.csproj",
+        "packagesPath": "/home/francisco/.nuget/packages/",
+        "outputPath": "/home/francisco/Personal/formaly/backend/backend.business/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/francisco/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/francisco/Personal/formaly/backend/backend.dal/backend.dal.csproj": {
+                "projectPath": "/home/francisco/Personal/formaly/backend/backend.dal/backend.dal.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/francisco/Personal/formaly/backend/backend.dal/backend.dal.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/francisco/Personal/formaly/backend/backend.dal/backend.dal.csproj",
+        "projectName": "backend.dal",
+        "projectPath": "/home/francisco/Personal/formaly/backend/backend.dal/backend.dal.csproj",
+        "packagesPath": "/home/francisco/.nuget/packages/",
+        "outputPath": "/home/francisco/Personal/formaly/backend/backend.dal/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/francisco/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.11.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/francisco/Personal/formaly/backend/backend.root/backend.root.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/francisco/Personal/formaly/backend/backend.root/backend.root.csproj",
+        "projectName": "backend.root",
+        "projectPath": "/home/francisco/Personal/formaly/backend/backend.root/backend.root.csproj",
+        "packagesPath": "/home/francisco/.nuget/packages/",
+        "outputPath": "/home/francisco/Personal/formaly/backend/backend.root/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/francisco/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/francisco/Personal/formaly/backend/backend.business/backend.business.csproj": {
+                "projectPath": "/home/francisco/Personal/formaly/backend/backend.business/backend.business.csproj"
+              },
+              "/home/francisco/Personal/formaly/backend/backend.dal/backend.dal.csproj": {
+                "projectPath": "/home/francisco/Personal/formaly/backend/backend.dal/backend.dal.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

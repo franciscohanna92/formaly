@@ -1,0 +1,15 @@
+/home/francisco/Personal/formaly/backend/backend.dal/bin/Debug/net5.0/backend.dal.deps.json
+/home/francisco/Personal/formaly/backend/backend.dal/bin/Debug/net5.0/backend.dal.runtimeconfig.json
+/home/francisco/Personal/formaly/backend/backend.dal/bin/Debug/net5.0/backend.dal.runtimeconfig.dev.json
+/home/francisco/Personal/formaly/backend/backend.dal/bin/Debug/net5.0/backend.dal.dll
+/home/francisco/Personal/formaly/backend/backend.dal/bin/Debug/net5.0/ref/backend.dal.dll
+/home/francisco/Personal/formaly/backend/backend.dal/bin/Debug/net5.0/backend.dal.pdb
+/home/francisco/Personal/formaly/backend/backend.dal/obj/Debug/net5.0/backend.dal.GeneratedMSBuildEditorConfig.editorconfig
+/home/francisco/Personal/formaly/backend/backend.dal/obj/Debug/net5.0/backend.dal.AssemblyInfoInputs.cache
+/home/francisco/Personal/formaly/backend/backend.dal/obj/Debug/net5.0/backend.dal.AssemblyInfo.cs
+/home/francisco/Personal/formaly/backend/backend.dal/obj/Debug/net5.0/backend.dal.csproj.CoreCompileInputs.cache
+/home/francisco/Personal/formaly/backend/backend.dal/obj/Debug/net5.0/backend.dal.dll
+/home/francisco/Personal/formaly/backend/backend.dal/obj/Debug/net5.0/ref/backend.dal.dll
+/home/francisco/Personal/formaly/backend/backend.dal/obj/Debug/net5.0/backend.dal.pdb
+/home/francisco/Personal/formaly/backend/backend.dal/obj/Debug/net5.0/backend.dal.genruntimeconfig.cache
+/home/francisco/Personal/formaly/backend/backend.dal/obj/Debug/net5.0/backend.dal.csprojAssemblyReference.cache

@@ -1,0 +1,15 @@
+/home/francisco/Personal/formaly/backend/backend.business/bin/Debug/net5.0/backend.business.deps.json
+/home/francisco/Personal/formaly/backend/backend.business/bin/Debug/net5.0/backend.business.dll
+/home/francisco/Personal/formaly/backend/backend.business/bin/Debug/net5.0/ref/backend.business.dll
+/home/francisco/Personal/formaly/backend/backend.business/bin/Debug/net5.0/backend.business.pdb
+/home/francisco/Personal/formaly/backend/backend.business/bin/Debug/net5.0/backend.dal.dll
+/home/francisco/Personal/formaly/backend/backend.business/bin/Debug/net5.0/backend.dal.pdb
+/home/francisco/Personal/formaly/backend/backend.business/obj/Debug/net5.0/backend.business.csprojAssemblyReference.cache
+/home/francisco/Personal/formaly/backend/backend.business/obj/Debug/net5.0/backend.business.GeneratedMSBuildEditorConfig.editorconfig
+/home/francisco/Personal/formaly/backend/backend.business/obj/Debug/net5.0/backend.business.AssemblyInfoInputs.cache
+/home/francisco/Personal/formaly/backend/backend.business/obj/Debug/net5.0/backend.business.AssemblyInfo.cs
+/home/francisco/Personal/formaly/backend/backend.business/obj/Debug/net5.0/backend.business.csproj.CoreCompileInputs.cache
+/home/francisco/Personal/formaly/backend/backend.business/obj/Debug/net5.0/backend.business.csproj.CopyComplete
+/home/francisco/Personal/formaly/backend/backend.business/obj/Debug/net5.0/backend.business.dll
+/home/francisco/Personal/formaly/backend/backend.business/obj/Debug/net5.0/ref/backend.business.dll
+/home/francisco/Personal/formaly/backend/backend.business/obj/Debug/net5.0/backend.business.pdb
